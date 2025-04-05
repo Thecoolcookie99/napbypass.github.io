@@ -93,6 +93,7 @@ nav .container {
     font-size: 1.5rem;
     margin-bottom: 0;
     color: var(--primary-light);
+    text-shadow: #4338ca 0px 0px 15px;
 }
 
 nav ul {
@@ -129,6 +130,7 @@ nav i {
     background: linear-gradient(to right, var(--primary-light), #a5b4fc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: #4338ca 0px 0px 15px;
 }
 
 .hero p {
@@ -222,6 +224,13 @@ nav i {
     display: flex;
     align-items: center;
     gap: 0.25rem;
+}
+
+.warning {
+    font-weight: 1000;
+    font-style: oblique;
+    font-family: monospace;
+    font-size: large;
 }
 
 .compatibility i.fa-check {
@@ -327,6 +336,7 @@ nav i {
     
     .hero h1 {
         font-size: 2rem;
+        text-shadow: #4338ca 0px 0px 15px;
     }
 }
 
@@ -342,6 +352,7 @@ nav i {
     
     .hero h1 {
         font-size: 1.75rem;
+        text-shadow: #4338ca 0px 0px 15px;
     }
 }
 
