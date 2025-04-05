@@ -1,57 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NapBypass</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-  <style>
-    body { font-family: 'Inter', sans-serif; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAPLAN </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-gray-950 text-white">
-
-  <!-- Header -->
-  <header class="p-6 flex items-center justify-between border-b border-gray-800">
-    <h1 class="text-2xl font-bold text-white">NapBypass</h1>
-    <nav class="space-x-4">
-      <a href="#" class="text-gray-400 hover:text-white transition">Home</a>
-      <a href="#" class="text-gray-400 hover:text-white transition">Features</a>
-      <a href="#" class="text-gray-400 hover:text-white transition">Docs</a>
-      <a href="#" class="text-gray-400 hover:text-white transition">Contact</a>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>NAPBypass</h1>
+            </div>
+            <ul>
+                <li><a href="#bypasses">Bypasses</a></li>
+                <li><a href="#contributors">Contributors</a></li>
+                </a></li>
+            </ul>
+        </div>
     </nav>
-  </header>
 
-  <!-- Hero Section -->
-  <section class="px-6 py-20 text-center bg-gradient-to-br from-gray-900 to-gray-800">
-    <h2 class="text-4xl md:text-5xl font-extrabold mb-6">Bypass Naps, Stay Ahead</h2>
-    <p class="text-gray-400 max-w-xl mx-auto mb-8 text-lg">NapBypass is your cutting-edge solution to optimize productivity without sacrificing alertness. Innovative. Fast. Effective.</p>
-    <a href="#" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-500 transition">Get Started</a>
-  </section>
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>NAPLAN Bypass Collection</h1>
+            <p>(not meant to compromise academic integrity or to encourage cheating in any shape or form)</p>
+            <a href="#bypasses" class="btn">View Bypasses</a>
+        </div>
+    </section>
 
-  <!-- Features Section -->
-  <section class="px-6 py-20 bg-gray-900">
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
-      <div class="bg-gray-800 rounded-2xl p-8 shadow-lg">
-        <h3 class="text-xl font-semibold mb-2">Fast Activation</h3>
-        <p class="text-gray-400">Instantly bypass nap-induced lag with one click.</p>
-      </div>
-      <div class="bg-gray-800 rounded-2xl p-8 shadow-lg">
-        <h3 class="text-xl font-semibold mb-2">Smart Sync</h3>
-        <p class="text-gray-400">Integrates with your workflow for seamless focus boosts.</p>
-      </div>
-      <div class="bg-gray-800 rounded-2xl p-8 shadow-lg">
-        <h3 class="text-xl font-semibold mb-2">Safe & Efficient</h3>
-        <p class="text-gray-400">Scientifically optimized for minimal side effects and max output.</p>
-      </div>
-    </div>
-  </section>
+    <section id="bypasses" class="bypasses-section">
+        <div class="container">
+            <h2>Available Bypasses</h2>
+            
+            <div class="bypasses-grid">
+                <!-- Bypass Card 1 -->
+                <div class="bypass-card">
+                    <h3>lorem ipsum<span class="badge">language</span></h3>
+                    <p>lorem ipsum</p>
+                    <pre><code>lorem ipsum</code></pre>
+                </div>
 
-  <!-- Footer -->
-  <footer class="p-6 text-center border-t border-gray-800 text-gray-500 text-sm">
-    © 2025 NapBypass. All rights reserved.
-  </footer>
+            </div>
+        </div>
+    </section>
 
+    <section id="contributors" class="contributors-section">
+        <div class="container">
+            <h2>Contributors</h2>
+            
+            <div class="contributors-grid">
+                <!-- Contributor 1 -->
+                <div class="contributor-card">
+                    <img src="https://github.com/identicons/user1.png" alt="Contributor 1">
+                    <h3>user</h3>
+                    <p>lorem ipsum</p>
+                    <a href="https://github.com/username1" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+
+                <!-- Contributor 2 -->
+                <div class="contributor-card">
+                    <img src="https://github.com/identicons/user2.png" alt="Contributor 2">
+                    <h3>user</h3>
+                    <p>lorem ipsum</p>
+                    <a href="https://github.com/username2" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+
+                <!-- Contributor 3 -->
+                <div class="contributor-card">
+                    <img src="https://github.com/identicons/user3.png" alt="Contributor 3">
+                    <h3>user</h3>
+                    <p>lorem ipsum</p>
+                    <a href="https://github.com/username3" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+
+                <!-- Join Card -->
+                <div class="contributor-card join-card">
+                    <i class="fas fa-plus-circle"></i>
+                    <h3>Join Us</h3>
+                    <a href="https://discord.gg/H8JTj6adny" class="btn" target="_blank">Discord</a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
