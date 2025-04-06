@@ -129,6 +129,7 @@ nav i {
     margin-bottom: 1rem;
     background: linear-gradient(to right, var(--primary-light), #a5b4fc);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: #4338ca 0px 0px 15px;
 }
@@ -431,7 +432,7 @@ nav i {
     margin-bottom: 1.25rem;
 }
 
-.guide-version, .guide-difficulty {
+.guide-version, .guide-difficulty, .discovery-credit {
     font-size: 0.85rem;
     padding: 0.25rem 0.5rem;
     border-radius: 0.25rem;
