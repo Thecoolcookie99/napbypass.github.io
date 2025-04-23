@@ -562,7 +562,9 @@ nav i {
 
 .strike {
     text-decoration: line-through;
+    text-decoration-line: line-through;
 }
+
 
 
 .guide-meta {
