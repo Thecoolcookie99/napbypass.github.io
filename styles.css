@@ -560,6 +560,11 @@ nav i {
     flex-grow: 1;
 }
 
+.strike {
+    text-decoration: line-through;
+}
+
+
 .guide-meta {
     display: flex;
     justify-content: space-between;
