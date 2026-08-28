@@ -1,5 +1,5 @@
-s
 These are not naplan cheats, please do not use to violate academic integrity. The guides tell you how to get around the NAP locked down browser for testing and educational purposes, but we will not tell you how to cheat on NAPLAN. The NAP locked down browser is made by ACARA, and the naplan browser downloads for are located on their website. If you want a NAPLAN download for NAPLAN's online browser for 2026, visit https://www.assessform.edu.au/naplan-online/locked-down-browser.
+
 Overview
 All students taking part in NAPLAN Online tests must install a locked down browser app suitable for their device. This also applies when schools have a ‘bring your own device’ (BYOD) policy. Locked down browser applications are available for devices that meet the minimum device requirements. Android devices are not supported. Students with appropriate disability adjustment codes (DACs) do not require a locked down browser.
 
